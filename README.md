@@ -162,25 +162,25 @@ Ce référentiel est mis à jour et enrichi par moi et la communauté. Les Pull 
 # 5. Requêtes de manipulation de vues
 
 ### **CREATE**: créer une vue
-* `CREATE VIEW` view_name `AS SELECT` colonne1, colonne2 `FROM` nom_de_table `WHERE` condition;
+* `CREATE VIEW` nom_de_vue `AS SELECT` colonne1, colonne2 `FROM` nom_de_table `WHERE` condition;
 
 ### **SELECT**: consulter une vue
-* `SELECT` * `FROM` view_name;
+* `SELECT` * `FROM` nom_de_vue;
 
 ### **DROP**: supprimer une vue
-* `DROP VIEW` view_name;
+* `DROP VIEW` nom_de_vue;
 
 <a name="alter"></a>
 # 6. Requête d'altération de tables
 
 ### **ADD**: ajouter une colonne
-* `ALTER TABLE` nom_de_table `ADD` nom_de_colonne colonne_definition;
+* `ALTER TABLE` nom_de_table `ADD` nom_de_colonne definition_colonne;
 
 ### **MODIFY**: changer le type de données de la colonne
-* `ALTER TABLE` nom_de_table `MODIFY` nom_de_colonne colonne_type;
+* `ALTER TABLE` nom_de_table `MODIFY` nom_de_colonne type_colonne;
 
 ### **DROP**: supprimer une colonne
-* `ALTER TABLE` nom_de_table `DROP colonne` nom_de_colonne;
+* `ALTER TABLE` nom_de_table `DROP COLUMN` nom_de_colonne;
 
 <a name="create"></a>
 # 7. Requête de création de tables
