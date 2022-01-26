@@ -112,8 +112,8 @@ Ce référentiel est mis à jour et enrichi par moi et la communauté. Les Pull 
 # 2. Requêtes d'altération des données
 
 ### **INSERT INTO**: utilisé pour insérer de nouveaux enregistrements dans une table
-* `INSERT INTO` nom_de_table (colonne1, colonne2) `valeurS` (valeur1, valeur2);
-* `INSERT INTO` nom_de_table `valeurS` (valeur1, valeur2 …);
+* `INSERT INTO` nom_de_table (colonne1, colonne2) `VALUES` (valeur1, valeur2);
+* `INSERT INTO` nom_de_table `VALUES` (valeur1, valeur2 …);
 
 ### **UPDATE**: utilisé pour modifier les enregistrements existants dans une table
 * `UPDATE` nom_de_table `SET` colonne1 = valeur1, colonne2 = valeur2 `WHERE` condition;
